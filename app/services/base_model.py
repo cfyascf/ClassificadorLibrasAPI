@@ -1,7 +1,6 @@
 from abc import abstractmethod
 import os
 
-
 class BaseModel:
     @abstractmethod
     def process_image(self, image):
