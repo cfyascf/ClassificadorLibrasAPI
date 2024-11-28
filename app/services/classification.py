@@ -9,7 +9,7 @@ class ClassificationService:
 
     def __init__(self):
         self.__image_classifier = ImageClassifier.get_instance()
-        self.__video_classifier = VideoClassifier.get_instance()
+        # self.__video_classifier = VideoClassifier.get_instance()
 
     @staticmethod
     def classify(data):
